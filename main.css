@@ -143,18 +143,56 @@ h1, h2, h3, p {
 .hero-link:active {
   background-color: #9ae3e3;
 }
-.hero-images {
-}
-.link-wrap {
+.form-label {
   position: relative;
+  width: 1150px;
+  width: 1;
   top: 68px;
   z-index: 1;
   padding: 52px 65px 52px 64px;
   background-image: url("./images/herobg2.svg");
   background-repeat: no-repeat;
-  background-size: 1110px 168px;
+  background-size: 1150px 168px;
 }
-.hero-achor {
+.input-link {
+  margin-right: 24px;
+  padding: 14px 530px 14px 32px;
+  color: #34313d;
+  font-size: 20px;
+  border: none;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  border-radius: 10px;
+  border: 3px solid transparent;
+}
+::placeholder {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+}
+::placeholder:hover {
+  color: #f46363;
+}
+.button-submit {
+  padding: 18px 40px 16px 41px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  background-color: #2bd0d0;
+}
+.button-submit:active {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 10px;
+  background-color: #9ae3e3;
+}
+/* .hero-achor {
   position: relative;
   margin-right: 24px;
   padding: 12px 536px 12px 32px;
@@ -197,7 +235,7 @@ h1, h2, h3, p {
 }
 .hero-endlink:active {
   background: #9ae3e3;
-}
+} */
 .hero__text:active {
   color: #f46363;
   margin-top: 30px;
@@ -393,6 +431,6 @@ h1, h2, h3, p {
   color: #fff;
 }
 .footer-linkend:hover {
-color: #2bd0d0;
+  color: #2bd0d0;
 }
 /* Footer finished */
