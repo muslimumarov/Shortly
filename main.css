@@ -78,7 +78,7 @@ h1, h2, h3, p {
   font-size: 15px;
   font-weight: 700;
 }
-.nav-link:active {
+.nav-link:hover {
   color: #34313d;
 }
 .right__link {
@@ -96,7 +96,7 @@ h1, h2, h3, p {
   border-radius: 28px;
   background: #2bd0d0;
 }
-.right__end-link:active {
+.right__end-link:hover {
   border-radius: 28px;
   background-color: #9ae3e3;
 }
@@ -140,7 +140,7 @@ h1, h2, h3, p {
   border-radius: 28px;
   background-color: #2bd0d0;
 }
-.hero-link:active {
+.hero-link:hover {
   background-color: #9ae3e3;
 }
 .form-label {
@@ -184,7 +184,7 @@ h1, h2, h3, p {
   line-height: normal;
   background-color: #2bd0d0;
 }
-.button-submit:active {
+.button-submit:hover {
   color: #fff;
   font-size: 20px;
   font-weight: 700;
@@ -214,14 +214,14 @@ h1, h2, h3, p {
   background-repeat: no-repeat;
   content: "";
 }
-.hero-achor:active {
+.hero-achor:hover {
   color: #f46363;
   border-radius: 10px;
   border: 3px solid #f46363;
   background-color: #fff;
   opacity: 0.5;
 }
-.hero-achor:active::after {
+.hero-achor:hover::after {
   background-image: url("./images/Please.svg");
   background-repeat: no-repeat;
 }
@@ -233,10 +233,10 @@ h1, h2, h3, p {
   border-radius: 10px;
   background: #2bd0d0;
 }
-.hero-endlink:active {
+.hero-endlink:hover {
   background: #9ae3e3;
 } */
-.hero__text:active {
+.hero__text:hover {
   color: #f46363;
   margin-top: 30px;
   font-size: 16px;
@@ -372,8 +372,8 @@ h1, h2, h3, p {
   border-radius: 28px;
   background: #2bd0d0;
 }
-.article-link:active  {
-  background: #9ae3e3;
+.article-link:hover  {
+  background-color: #9ae3e3;
 }
 /* Article section finished  */
 /* Main finished */
